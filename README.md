@@ -1,6 +1,8 @@
 - git clone git@github.com:jun68ykt/q149275.git
 - cd q149275
-- chmod +x *.py
+- chmod +x data_gen.py
+- chmod +x make_map.py
+- chmod +x count.py
 - export PATH=${PATH}:.
 - generating data file: data_gen.py > data.txt
 - generating map file: cat data.txt | make_map.py > data.map.json
