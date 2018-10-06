@@ -27,5 +27,5 @@ for t in m["data"]:
         continue
     result[name] = count(t[0], m["indexes"], m["data"])
 
-for k, v in sorted(result.items()):
+for k, v in sorted(result.items(), key=lambda x: -x[1]):
     print("%s: %d" % (k, v))
