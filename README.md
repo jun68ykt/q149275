@@ -1,3 +1,9 @@
+# TL;DR
+
+This repo contains python codes used in [my answer](https://teratail.com/questions/149275#reply-224709) for the [question No.149275](https://teratail.com/questions/149275) of [teratail](https://teratail.com/), which is a Programming Q&A site of Japan.
+
+# How to run
+
 - git clone git@github.com:jun68ykt/q149275.git
 - cd q149275
 - chmod +x data_gen.py
